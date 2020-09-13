@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header class="headetSite">
+		<h3>AJAX</h3>
+
+	</header>
+
+	<main class="wrapper">
+	<div>
+		<h4>Отправка ajax запроса через форму кнопкой submit</h4>
+		<form action="http://ajax_ex1:8090/ajax.php">
+			<input type="text" name="name">Имя</input>
+			<button type="submit">Отправить</button>
+		</form>
+	</div>
+
+	<div>
+		<h4>Отправка ajax запроса через XMLHttpRequest</h4>
+		<button id="sendGetJS">Отправить GET запрос с помощью JS</button>
+	</div>
+
+	<div>
+		<h4>Отправка ajax запроса через Fetch Promis</h4>
+	</div>
+	</main>
+	
+</body>
+
+<script src="js/main.js" type="module"></script>
+<script src="js/ajax.js" type="module"></script>
+</html>

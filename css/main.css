@@ -1,0 +1,13 @@
+
+.headetSite {
+	text-align:center;
+}
+
+.wrapper {
+  display: grid;
+  justify-items: start;
+  align-items:center;
+  gap: 20px;
+}
+
+
